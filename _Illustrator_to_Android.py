@@ -25,7 +25,7 @@ sizes = ['xxxhdpi','xxhdpi','xhdpi','hdpi','mdpi','ldpi']
 #loop to check all the files in the folder
 for filename in glob.glob('*.png'):
 
-	# loop through the different sizes and clasify the file
+    # loop through the different sizes and clasify the file
     for size in sizes:
         
         # Check if the file name contains that extension        
